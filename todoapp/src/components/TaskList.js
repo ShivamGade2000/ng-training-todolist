@@ -27,7 +27,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
               <td>{task.priority}</td>
               <td>{task.comments}</td>
               <td>
-                
+              <button onClick={() => selectTask(task)} className="btn btn-warning btn-sm me-2">
+                  Edit
+                </button>
+                <button onClick={() => deleteTask(task.id)} className="btn btn-danger btn-sm">
+                  Delete
+                </button>
               </td>
             </tr>
           ))}
