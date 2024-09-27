@@ -38,4 +38,67 @@
 }
 
 
+/* Add top margin to the whole container */
+.container {
+  margin-top: 50px;
+}
+
+/* Center the form and table within the container */
+.container h1 {
+  color: #007bff;
+}
+
+/* Style the Add Task button to float to the right */
+button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  float: right;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Table Styling */
+table {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+thead th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td button {
+  margin: 0 5px;
+}
+
+
+/* Pagination styling */
+.pagination {
+  margin-top: 20px;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.page-link {
+  color: #007bff;
+}
+
+.page-link:hover {
+  background-color: #f8f9fa;
+  border-color: #007bff;
+}
 
